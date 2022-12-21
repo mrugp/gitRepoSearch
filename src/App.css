@@ -42,6 +42,7 @@
   margin: 15px;
   border: solid 2px #3a3a3a;
   border-radius: 5px;
+  text-align: center;
 }
 .title{
   font-size: 15px;
@@ -51,4 +52,85 @@
 .description{
   font-size: 12px;
   text-align: center;
+}
+.searchField{
+  padding: 10px 20px;
+  border: solid 2px #686868;
+  border-radius: 5px;
+  margin-right: 5px;
+  outline: none;
+  text-align: center;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+        background-color:#eee;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+       }
+
+       .height{
+        height: 100vh;
+       }
+       
+
+       .search{
+       position: relative;
+       box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+         
+       }
+
+       .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+
+
+       }
+
+
+       .search input:focus{
+
+        box-shadow: none;
+        border: 2px solid blue;
+
+
+       }
+
+       .search .fa-search{
+
+        position: absolute;
+        top: 20px;
+        left: 16px;
+
+       }
+
+       .search button{
+
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: blue;
+
+       }
+
+#select1{
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  border-radius: 5%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: 2;
+  margin-left: 1em;
+  border: #3a3a3a 1px solid;
 }

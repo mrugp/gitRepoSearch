@@ -1,3 +1,94 @@
+
+
+# React Repository Search
+
+### A repository search application using Github's repository search API that displays results based on search terms. The results list can be sorted by  Stars, watchers count, score, name,created at, updated at.
+
+## Table of contents
+
+
+- [Setup](#setup)
+- [Technologies](#technologies)
+- [Design](#design)
+- [Components](#components)
+- [Screenshots](#screenshots)
+- [License](#license)
+
+
+
+## Setup
+
+To run this project, install it locally using npm:
+
+```
+$ npm install
+$ npm start
+```
+
+
+
+## Technologies
+
+Project is created with:
+
+- React
+- Javascript
+
+## Design
+
+A simple  design that consists of a landing page consisting of sort dropdown and search bar. The UI is kept clean with a simple color scheme. Number of results are displayed and adjusted based on sort . 
+
+## Components
+
+- CardList
+- Error
+- Search
+- Card
+
+
+
+## Screenshots
+
+<table>
+  <tr>
+    <tr>
+    <th>Desktop</th>
+    </tr>
+  </tr>
+    <td> <img src="public/DesktopMain.png" alt="1"></td>
+    <td><img src="public/DesktopResults.png" alt="2"></td>
+    <td><img src="public/DesktopResults.png" alt="2"></td>
+   </tr> 
+       <tr>
+    <th>Mobile</th>
+    </tr>
+   <tr>
+    <td><img src="public/MobileMain.png" alt="3"></td>
+    <td><img src="public/MobileResults.png" alt="4">
+    <td><img src="public/MobileDetails.png" alt="5">
+  </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

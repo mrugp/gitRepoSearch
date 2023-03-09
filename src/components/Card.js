@@ -1,5 +1,5 @@
 
-
+//com
 export const Card =(props)=>{
 
     console.log("props in card",props)

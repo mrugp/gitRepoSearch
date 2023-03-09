@@ -37,7 +37,7 @@
       "pre-commit":"lint-staged"
     }},
     "lint-staged":{
-      "*.css":"npm run lint:fix"
+      "src/**/*.css":"npm run lint:fix"
     },
   
   "eslintConfig": {
